@@ -4,20 +4,15 @@
     justify-center
     align-center
   >
-<!--    <v-card-->
-<!--      class="mx-auto"-->
-<!--    >-->
-      <v-container
+    <v-container
         class="pa-2"
         fluid
       >
         <v-row>
-          <v-col
+          <v-flex xs12 md8>
+            <v-col
             v-for="card in cards"
-            :key="card.title"
-            cols="8"
-            xs="12"
-          >
+            :key="card.title">
             <v-card>
               <v-img
                 :src="card.src"
@@ -31,9 +26,9 @@
               </v-img>
             </v-card>
           </v-col>
-          <v-col
-            cols="4"
-            xs="12"
+          </v-flex>
+          <v-flex xs12 md4>
+            <v-col
           >
             <v-card
               class="mx-auto ma-2"
@@ -72,9 +67,9 @@
               </v-list-item>
             </v-layout>
           </v-col>
+          </v-flex>
         </v-row>
-      </v-container>
-<!--    </v-card>-->
+    </v-container>
   </v-layout>
 </template>
 
