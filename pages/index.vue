@@ -93,7 +93,7 @@
         // When the customer clicks on the button, redirect
         // them to Checkout.
         stripe.redirectToCheckout({
-          items: [{sku: 'sku_Fs26ATLVXsPXJw', quantity: 1}],
+          items: [{sku: 'sku_FsB1j6BpU56r0M', quantity: 1}],
           successUrl: 'https://pies-by-naan.com/success',
           cancelUrl: 'https://pies-by-naan.com/canceled',
         })
