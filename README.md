@@ -2,6 +2,8 @@
 
 > My awe-inspiring Nuxt.js project
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f1e3eb10-d14d-4ee0-900a-8d9faee7cab8/deploy-status)](https://app.netlify.com/sites/pies-by-naan/deploys)
+
 ## Build Setup
 
 ``` bash

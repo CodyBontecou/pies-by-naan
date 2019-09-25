@@ -89,7 +89,7 @@
     },
     methods: {
       checkout() {
-        var stripe = window.Stripe(process.env.stripe_key);
+        var stripe = window.Stripe(process.env.STRIPE_KEY);
         // When the customer clicks on the button, redirect
         // them to Checkout.
         stripe.redirectToCheckout({
